@@ -7,9 +7,13 @@ const Header = () => {
     <div>
       <h2>Welcome to my fancy Routing......!!</h2>
       <nav>
-        <CoustomLink to="/home">Home</CoustomLink>
+        <Link to="/home">Home</Link>
+        <Link to="/friends">Friends</Link>
+        <Link to="/posts">Posts</Link>
+        <Link to="/about">About</Link>
+        {/* <CoustomLink to="/home">Home</CoustomLink>
         <CoustomLink to="/friends">Friends</CoustomLink>
-        <CoustomLink to="/about">About</CoustomLink>
+        <CoustomLink to="/about">About</CoustomLink> */}
       </nav>
     </div>
   );
